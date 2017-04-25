@@ -1,6 +1,6 @@
 # npmtest-zepto
 
-#### test coverage for  [zepto (v1.2.0)](http://zeptojs.com)  [![npm package](https://img.shields.io/npm/v/npmtest-zepto.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-zepto) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-zepto.svg)](https://travis-ci.org/npmtest/node-npmtest-zepto)
+#### basic test coverage for  [zepto (v1.2.0)](http://zeptojs.com)  [![npm package](https://img.shields.io/npm/v/npmtest-zepto.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-zepto) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-zepto.svg)](https://travis-ci.org/npmtest/node-npmtest-zepto)
 
 #### Zepto is a minimalist JavaScript library for modern browsers with a largely jQuery-compatible API. If you use jQuery, you already know how to use Zepto.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-zepto/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-zepto/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-zepto/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-zepto/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-zepto/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-zepto/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-zepto/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-zepto/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-zepto/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-zepto/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-zepto/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-zepto/build/coverage.html/index.html)
 
@@ -74,7 +74,8 @@
         "start": "coffee test/server.coffee",
         "test": "coffee make test"
     },
-    "version": "1.2.0"
+    "version": "1.2.0",
+    "bin": {}
 }
 ```
 
